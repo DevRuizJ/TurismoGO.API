@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Application.Shared.Commands;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Application
 {
@@ -6,6 +7,9 @@ namespace Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
+            //commands
+            services.AddCommands();
+
             return services;
         }
     }
