@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurismoGO.API", "TurismoGO.API\TurismoGO.API.csproj", "{71EA43DE-F44D-4C6C-B5D8-8CAAB3D837B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurismoGO.API", "TurismoGO.API\TurismoGO.API.csproj", "{71EA43DE-F44D-4C6C-B5D8-8CAAB3D837B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{192DEB68-A870-4103-84CD-A768F304CAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E87ED606-4566-41F5-9234-9FD3F8F7F88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{94F77757-A2D5-4B7C-B241-E15D122F90A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{71EA43DE-F44D-4C6C-B5D8-8CAAB3D837B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71EA43DE-F44D-4C6C-B5D8-8CAAB3D837B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71EA43DE-F44D-4C6C-B5D8-8CAAB3D837B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192DEB68-A870-4103-84CD-A768F304CAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192DEB68-A870-4103-84CD-A768F304CAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192DEB68-A870-4103-84CD-A768F304CAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192DEB68-A870-4103-84CD-A768F304CAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87ED606-4566-41F5-9234-9FD3F8F7F88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87ED606-4566-41F5-9234-9FD3F8F7F88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87ED606-4566-41F5-9234-9FD3F8F7F88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87ED606-4566-41F5-9234-9FD3F8F7F88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F77757-A2D5-4B7C-B241-E15D122F90A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F77757-A2D5-4B7C-B241-E15D122F90A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F77757-A2D5-4B7C-B241-E15D122F90A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F77757-A2D5-4B7C-B241-E15D122F90A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
